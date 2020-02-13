@@ -101,18 +101,3 @@
   "extra": {}
 }
 ```
-
-###### CEP
-```json
-{
-  "cep": "22460-901",
-  "logradouro": "Rua Lópes Quintas",
-  "complemento": "303",
-  "bairro": "Jardim Botânico",
-  "localidade": "Rio de Janeiro",
-  "uf": "RJ",
-  "unidade": "",
-  "ibge": "3304557",
-  "gia": ""
-}
-```
