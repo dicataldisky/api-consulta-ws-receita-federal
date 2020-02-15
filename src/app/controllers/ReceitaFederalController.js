@@ -7,6 +7,8 @@ async function consultaCNPJ(cnpj) {
   // Limpa o CNPJ para conter somente numeros, removendo traços e pontos
   cnpj = cnpj.replace(/\D/g, '');
 
+  // Define Axios Timeout
+  axios.defaults.timeout = 8000;
   try {
     // Consulta o CNPJ na ReceitaWS
     return await axios.get(

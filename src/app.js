@@ -30,8 +30,8 @@ class App {
     if (process.env.NODE_ENV !== 'development') {
       this.server.use(
         new RateLimit({
-          windowMs: 1000 * 60 * 15,
-          max: 100,
+          windowMs: 6000,
+          max: 2,
         })
       );
     }

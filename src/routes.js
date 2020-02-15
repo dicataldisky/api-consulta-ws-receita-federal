@@ -10,6 +10,6 @@ routes.get('/', (req, res) =>
   })
 );
 
-routes.get('/rf/:cnpj', ReceitaFederalController.index);
+routes.get('/consulta/:cnpj', ReceitaFederalController.index);
 
 export default routes;
